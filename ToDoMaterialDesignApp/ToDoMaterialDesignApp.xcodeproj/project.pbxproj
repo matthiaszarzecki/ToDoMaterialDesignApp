@@ -13,6 +13,7 @@
 		6E8A4C6C268C42EC004B6CBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A4C6B268C42EC004B6CBA /* Preview Assets.xcassets */; };
 		6E8A4C77268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C76268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift */; };
 		6E8A4C82268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C81268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift */; };
+		6E8A4C90268C433D004B6CBA /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C8F268C433D004B6CBA /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6E8A4C7D268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoMaterialDesignAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8A4C81268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoMaterialDesignAppUITests.swift; sourceTree = "<group>"; };
 		6E8A4C83268C42EC004B6CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8A4C8F268C433D004B6CBA /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */,
 				6E8A4C66268C42EA004B6CBA /* ContentView.swift */,
+				6E8A4C8F268C433D004B6CBA /* TaskCell.swift */,
 				6E8A4C68268C42EB004B6CBA /* Assets.xcassets */,
 				6E8A4C6D268C42EC004B6CBA /* Info.plist */,
 				6E8A4C6A268C42EC004B6CBA /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E8A4C67268C42EA004B6CBA /* ContentView.swift in Sources */,
+				6E8A4C90268C433D004B6CBA /* TaskCell.swift in Sources */,
 				6E8A4C65268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
