@@ -14,6 +14,21 @@ struct TaskCell: View {
   var body: some View {
     VStack {
       Text("10 PM Meeting with K.M.")
+        .font(.title2)
+        .foregroundColor(.white)
+
+      HStack {
+        Image(systemName: "mappin.and.ellipse")
+          .foregroundColor(.white)
+
+        Text("3773 Jail Drive")
+          .foregroundColor(.white)
+      }
+
+      Text("Peoria, IL 61602")
+        .foregroundColor(.white)
+
+      Image(systemName: "square.and.pencil")
         .foregroundColor(.white)
     }
     .frame(width: width, height: 100, alignment: .center)
