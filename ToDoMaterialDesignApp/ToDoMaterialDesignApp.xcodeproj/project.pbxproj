@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8A4C65268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */; };
+		6E8A4C67268C42EA004B6CBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C66268C42EA004B6CBA /* ContentView.swift */; };
+		6E8A4C69268C42EC004B6CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A4C68268C42EB004B6CBA /* Assets.xcassets */; };
+		6E8A4C6C268C42EC004B6CBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A4C6B268C42EC004B6CBA /* Preview Assets.xcassets */; };
+		6E8A4C77268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C76268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift */; };
+		6E8A4C82268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C81268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8A4C73268C42EC004B6CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8A4C59268C42EA004B6CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8A4C60268C42EA004B6CBA;
+			remoteInfo = ToDoMaterialDesignApp;
+		};
+		6E8A4C7E268C42EC004B6CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8A4C59268C42EA004B6CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8A4C60268C42EA004B6CBA;
+			remoteInfo = ToDoMaterialDesignApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E8A4C61268C42EA004B6CBA /* ToDoMaterialDesignApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoMaterialDesignApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoMaterialDesignAppApp.swift; sourceTree = "<group>"; };
+		6E8A4C66268C42EA004B6CBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E8A4C68268C42EB004B6CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8A4C6B268C42EC004B6CBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E8A4C6D268C42EC004B6CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8A4C72268C42EC004B6CBA /* ToDoMaterialDesignAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoMaterialDesignAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8A4C76268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoMaterialDesignAppTests.swift; sourceTree = "<group>"; };
+		6E8A4C78268C42EC004B6CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8A4C7D268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoMaterialDesignAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8A4C81268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoMaterialDesignAppUITests.swift; sourceTree = "<group>"; };
+		6E8A4C83268C42EC004B6CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8A4C5E268C42EA004B6CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A4C6F268C42EC004B6CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A4C7A268C42EC004B6CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E8A4C58268C42EA004B6CBA = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C63268C42EA004B6CBA /* ToDoMaterialDesignApp */,
+				6E8A4C75268C42EC004B6CBA /* ToDoMaterialDesignAppTests */,
+				6E8A4C80268C42EC004B6CBA /* ToDoMaterialDesignAppUITests */,
+				6E8A4C62268C42EA004B6CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E8A4C62268C42EA004B6CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C61268C42EA004B6CBA /* ToDoMaterialDesignApp.app */,
+				6E8A4C72268C42EC004B6CBA /* ToDoMaterialDesignAppTests.xctest */,
+				6E8A4C7D268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8A4C63268C42EA004B6CBA /* ToDoMaterialDesignApp */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */,
+				6E8A4C66268C42EA004B6CBA /* ContentView.swift */,
+				6E8A4C68268C42EB004B6CBA /* Assets.xcassets */,
+				6E8A4C6D268C42EC004B6CBA /* Info.plist */,
+				6E8A4C6A268C42EC004B6CBA /* Preview Content */,
+			);
+			path = ToDoMaterialDesignApp;
+			sourceTree = "<group>";
+		};
+		6E8A4C6A268C42EC004B6CBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C6B268C42EC004B6CBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E8A4C75268C42EC004B6CBA /* ToDoMaterialDesignAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C76268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift */,
+				6E8A4C78268C42EC004B6CBA /* Info.plist */,
+			);
+			path = ToDoMaterialDesignAppTests;
+			sourceTree = "<group>";
+		};
+		6E8A4C80268C42EC004B6CBA /* ToDoMaterialDesignAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C81268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift */,
+				6E8A4C83268C42EC004B6CBA /* Info.plist */,
+			);
+			path = ToDoMaterialDesignAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E8A4C60268C42EA004B6CBA /* ToDoMaterialDesignApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8A4C86268C42EC004B6CBA /* Build configuration list for PBXNativeTarget "ToDoMaterialDesignApp" */;
+			buildPhases = (
+				6E8A4C5D268C42EA004B6CBA /* Sources */,
+				6E8A4C5E268C42EA004B6CBA /* Frameworks */,
+				6E8A4C5F268C42EA004B6CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoMaterialDesignApp;
+			productName = ToDoMaterialDesignApp;
+			productReference = 6E8A4C61268C42EA004B6CBA /* ToDoMaterialDesignApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E8A4C71268C42EC004B6CBA /* ToDoMaterialDesignAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8A4C89268C42EC004B6CBA /* Build configuration list for PBXNativeTarget "ToDoMaterialDesignAppTests" */;
+			buildPhases = (
+				6E8A4C6E268C42EC004B6CBA /* Sources */,
+				6E8A4C6F268C42EC004B6CBA /* Frameworks */,
+				6E8A4C70268C42EC004B6CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8A4C74268C42EC004B6CBA /* PBXTargetDependency */,
+			);
+			name = ToDoMaterialDesignAppTests;
+			productName = ToDoMaterialDesignAppTests;
+			productReference = 6E8A4C72268C42EC004B6CBA /* ToDoMaterialDesignAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E8A4C7C268C42EC004B6CBA /* ToDoMaterialDesignAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8A4C8C268C42EC004B6CBA /* Build configuration list for PBXNativeTarget "ToDoMaterialDesignAppUITests" */;
+			buildPhases = (
+				6E8A4C79268C42EC004B6CBA /* Sources */,
+				6E8A4C7A268C42EC004B6CBA /* Frameworks */,
+				6E8A4C7B268C42EC004B6CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8A4C7F268C42EC004B6CBA /* PBXTargetDependency */,
+			);
+			name = ToDoMaterialDesignAppUITests;
+			productName = ToDoMaterialDesignAppUITests;
+			productReference = 6E8A4C7D268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E8A4C59268C42EA004B6CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6E8A4C60268C42EA004B6CBA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6E8A4C71268C42EC004B6CBA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6E8A4C60268C42EA004B6CBA;
+					};
+					6E8A4C7C268C42EC004B6CBA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6E8A4C60268C42EA004B6CBA;
+					};
+				};
+			};
+			buildConfigurationList = 6E8A4C5C268C42EA004B6CBA /* Build configuration list for PBXProject "ToDoMaterialDesignApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E8A4C58268C42EA004B6CBA;
+			productRefGroup = 6E8A4C62268C42EA004B6CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8A4C60268C42EA004B6CBA /* ToDoMaterialDesignApp */,
+				6E8A4C71268C42EC004B6CBA /* ToDoMaterialDesignAppTests */,
+				6E8A4C7C268C42EC004B6CBA /* ToDoMaterialDesignAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8A4C5F268C42EA004B6CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A4C6C268C42EC004B6CBA /* Preview Assets.xcassets in Resources */,
+				6E8A4C69268C42EC004B6CBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A4C70268C42EC004B6CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A4C7B268C42EC004B6CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8A4C5D268C42EA004B6CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A4C67268C42EA004B6CBA /* ContentView.swift in Sources */,
+				6E8A4C65268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A4C6E268C42EC004B6CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A4C77268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A4C79268C42EC004B6CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A4C82268C42EC004B6CBA /* ToDoMaterialDesignAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8A4C74268C42EC004B6CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8A4C60268C42EA004B6CBA /* ToDoMaterialDesignApp */;
+			targetProxy = 6E8A4C73268C42EC004B6CBA /* PBXContainerItemProxy */;
+		};
+		6E8A4C7F268C42EC004B6CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8A4C60268C42EA004B6CBA /* ToDoMaterialDesignApp */;
+			targetProxy = 6E8A4C7E268C42EC004B6CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E8A4C84268C42EC004B6CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E8A4C85268C42EC004B6CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8A4C87268C42EC004B6CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDoMaterialDesignApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QDUTEX33CU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ToDoMaterialDesignApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.ToDoMaterialDesignApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E8A4C88268C42EC004B6CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDoMaterialDesignApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QDUTEX33CU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ToDoMaterialDesignApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.ToDoMaterialDesignApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E8A4C8A268C42EC004B6CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDUTEX33CU;
+				INFOPLIST_FILE = ToDoMaterialDesignAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.ToDoMaterialDesignAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoMaterialDesignApp.app/ToDoMaterialDesignApp";
+			};
+			name = Debug;
+		};
+		6E8A4C8B268C42EC004B6CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDUTEX33CU;
+				INFOPLIST_FILE = ToDoMaterialDesignAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.ToDoMaterialDesignAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoMaterialDesignApp.app/ToDoMaterialDesignApp";
+			};
+			name = Release;
+		};
+		6E8A4C8D268C42EC004B6CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDUTEX33CU;
+				INFOPLIST_FILE = ToDoMaterialDesignAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.ToDoMaterialDesignAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToDoMaterialDesignApp;
+			};
+			name = Debug;
+		};
+		6E8A4C8E268C42EC004B6CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDUTEX33CU;
+				INFOPLIST_FILE = ToDoMaterialDesignAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.ToDoMaterialDesignAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToDoMaterialDesignApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E8A4C5C268C42EA004B6CBA /* Build configuration list for PBXProject "ToDoMaterialDesignApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8A4C84268C42EC004B6CBA /* Debug */,
+				6E8A4C85268C42EC004B6CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8A4C86268C42EC004B6CBA /* Build configuration list for PBXNativeTarget "ToDoMaterialDesignApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8A4C87268C42EC004B6CBA /* Debug */,
+				6E8A4C88268C42EC004B6CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8A4C89268C42EC004B6CBA /* Build configuration list for PBXNativeTarget "ToDoMaterialDesignAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8A4C8A268C42EC004B6CBA /* Debug */,
+				6E8A4C8B268C42EC004B6CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8A4C8C268C42EC004B6CBA /* Build configuration list for PBXNativeTarget "ToDoMaterialDesignAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8A4C8D268C42EC004B6CBA /* Debug */,
+				6E8A4C8E268C42EC004B6CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E8A4C59268C42EA004B6CBA /* Project object */;
+}
