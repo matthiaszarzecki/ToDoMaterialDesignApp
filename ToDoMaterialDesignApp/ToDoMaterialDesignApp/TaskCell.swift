@@ -16,22 +16,30 @@ struct TaskCell: View {
       Text("10 PM Meeting with K.M.")
         .font(.title2)
         .foregroundColor(.white)
+        .frame(width: width - 8*2, height: 32, alignment: .leading)
 
       HStack {
         Image(systemName: "mappin.and.ellipse")
           .foregroundColor(.white)
+          .frame(width: 32, height: 32, alignment: .center)
 
-        Text("3773 Jail Drive")
-          .foregroundColor(.white)
+        VStack {
+          Text("3773 Jail Drive")
+            .foregroundColor(.white)
+            .frame(width: width - 42, height: 32, alignment: .leading)
+          Text("Peoria, IL 61602")
+            .foregroundColor(.white)
+            .frame(width: width - 42, height: 32, alignment: .leading)
+        }
+
       }
-
-      Text("Peoria, IL 61602")
-        .foregroundColor(.white)
-
-      Image(systemName: "square.and.pencil")
-        .foregroundColor(.white)
     }
-    .frame(width: width, height: 100, alignment: .center)
+    .frame(width: width, height: 100)
+    .overlay(
+      Image(systemName: "square.and.pencil")
+        .foregroundColor(.white),
+      alignment: Alignment.topTrailing
+    )
     .padding()
     .background(color)
     .shadow(color: color, radius: 10)
