@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct TaskCell: View {
+  let task: Task
   let width: CGFloat
-  let color: Color
 
   var body: some View {
     VStack {
-      Text("10 PM Meeting with K.M.")
+      Text(task.name)
         .font(.title2)
         .foregroundColor(.white)
         .frame(width: width - 8*2, height: 32, alignment: .leading)
@@ -24,10 +24,10 @@ struct TaskCell: View {
           .frame(width: 32, height: 32, alignment: .center)
 
         VStack {
-          Text("3773 Jail Drive")
+          Text(task.location01)
             .foregroundColor(.white)
             .frame(width: width - 42, height: 32, alignment: .leading)
-          Text("Peoria, IL 61602")
+          Text(task.location02)
             .foregroundColor(.white)
             .frame(width: width - 42, height: 32, alignment: .leading)
         }
@@ -41,18 +41,15 @@ struct TaskCell: View {
       alignment: Alignment.topTrailing
     )
     .padding()
-    .background(color)
-    .shadow(color: color, radius: 10)
-    .padding()
+    .background(task.color)
+    .shadow(color: task.color, radius: 10)
+    .padding(EdgeInsets(top: 6, leading: 16, bottom: 6, trailing: 16))
   }
 }
 
 struct TaskCell_Previews: PreviewProvider {
   static var previews: some View {
-    TaskCell(
-      width: 350,
-      color: Color(red: 0.865, green: 0.530, blue: 0.518)
-    )
-    .previewLayout(.sizeThatFits)
+    TaskCell(task: MockClasses.task, width: 350)
+      .previewLayout(.sizeThatFits)
   }
 }

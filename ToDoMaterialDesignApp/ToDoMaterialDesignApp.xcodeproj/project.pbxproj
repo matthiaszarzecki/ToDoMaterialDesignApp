@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E83B5E1268F34FC0051BC08 /* Color-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E83B5E0268F34FC0051BC08 /* Color-Extension.swift */; };
+		6E83B5E3268F35100051BC08 /* MockClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E83B5E2268F35100051BC08 /* MockClasses.swift */; };
+		6E83B5E5268F35290051BC08 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E83B5E4268F35290051BC08 /* Task.swift */; };
 		6E8A4C65268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */; };
-		6E8A4C67268C42EA004B6CBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C66268C42EA004B6CBA /* ContentView.swift */; };
+		6E8A4C67268C42EA004B6CBA /* AllTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C66268C42EA004B6CBA /* AllTasksView.swift */; };
 		6E8A4C69268C42EC004B6CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A4C68268C42EB004B6CBA /* Assets.xcassets */; };
 		6E8A4C6C268C42EC004B6CBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A4C6B268C42EC004B6CBA /* Preview Assets.xcassets */; };
 		6E8A4C77268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A4C76268C42EC004B6CBA /* ToDoMaterialDesignAppTests.swift */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E83B5E0268F34FC0051BC08 /* Color-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Extension.swift"; sourceTree = "<group>"; };
+		6E83B5E2268F35100051BC08 /* MockClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockClasses.swift; sourceTree = "<group>"; };
+		6E83B5E4268F35290051BC08 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		6E8A4C61268C42EA004B6CBA /* ToDoMaterialDesignApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoMaterialDesignApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoMaterialDesignAppApp.swift; sourceTree = "<group>"; };
-		6E8A4C66268C42EA004B6CBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E8A4C66268C42EA004B6CBA /* AllTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasksView.swift; sourceTree = "<group>"; };
 		6E8A4C68268C42EB004B6CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E8A4C6B268C42EC004B6CBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E8A4C6D268C42EC004B6CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +80,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E83B5E6268F35350051BC08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E83B5E0268F34FC0051BC08 /* Color-Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6E83B5E7268F35400051BC08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C66268C42EA004B6CBA /* AllTasksView.swift */,
+				6E8A4C8F268C433D004B6CBA /* TaskCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E83B5E8268F35480051BC08 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6E83B5E9268F35550051BC08 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A4C68268C42EB004B6CBA /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		6E83B5EA268F355C0051BC08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E83B5E4268F35290051BC08 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6E8A4C58268C42EA004B6CBA = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +144,13 @@
 		6E8A4C63268C42EA004B6CBA /* ToDoMaterialDesignApp */ = {
 			isa = PBXGroup;
 			children = (
-				6E8A4C64268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift */,
-				6E8A4C66268C42EA004B6CBA /* ContentView.swift */,
-				6E8A4C8F268C433D004B6CBA /* TaskCell.swift */,
-				6E8A4C68268C42EB004B6CBA /* Assets.xcassets */,
 				6E8A4C6D268C42EC004B6CBA /* Info.plist */,
+				6E83B5E8268F35480051BC08 /* AppDelegate */,
+				6E83B5E6268F35350051BC08 /* Extensions */,
+				6E83B5EA268F355C0051BC08 /* Models */,
 				6E8A4C6A268C42EC004B6CBA /* Preview Content */,
+				6E83B5E9268F35550051BC08 /* SupportingFiles */,
+				6E83B5E7268F35400051BC08 /* Views */,
 			);
 			path = ToDoMaterialDesignApp;
 			sourceTree = "<group>";
@@ -110,6 +158,7 @@
 		6E8A4C6A268C42EC004B6CBA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				6E83B5E2268F35100051BC08 /* MockClasses.swift */,
 				6E8A4C6B268C42EC004B6CBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -262,8 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E8A4C67268C42EA004B6CBA /* ContentView.swift in Sources */,
+				6E8A4C67268C42EA004B6CBA /* AllTasksView.swift in Sources */,
+				6E83B5E3268F35100051BC08 /* MockClasses.swift in Sources */,
+				6E83B5E1268F34FC0051BC08 /* Color-Extension.swift in Sources */,
 				6E8A4C90268C433D004B6CBA /* TaskCell.swift in Sources */,
+				6E83B5E5268F35290051BC08 /* Task.swift in Sources */,
 				6E8A4C65268C42EA004B6CBA /* ToDoMaterialDesignAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
