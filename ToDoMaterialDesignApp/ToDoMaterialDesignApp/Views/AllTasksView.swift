@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct AllTasksView: View {
-  @State var tasks: [Task]?
+  @State var tasks: [Task] = [Task]()
 
   var body: some View {
     NavigationView {
       Group {
-        if let unwrappedTasks = tasks {
+        if tasks.isEmpty {
+          Text("Nothing to do!")
+            .font(.title)
+        } else {
           GeometryReader { geometry in
             ScrollView {
-              ForEach(unwrappedTasks, id: \.self) { task in
+              ForEach(tasks, id: \.self) { task in
                 TaskCell(
                   task: task,
                   width: geometry.size.width - 32*2
@@ -24,8 +27,6 @@ struct AllTasksView: View {
               }
             }
           }
-        } else {
-          Text("Nothing to do!")
         }
       }
       .navigationBarTitle("TO DO", displayMode: .inline)
@@ -43,13 +44,14 @@ struct AllTasksView: View {
   }
 
   func addTask() {
-    if tasks == nil {
-      tasks = [Task]()
-    }
+    let task = Task(
+      name: MockClasses.task.name,
+      location01: MockClasses.task.location01,
+      location02: MockClasses.task.location02,
+      color: Color.getRandomColor()
+    )
 
-    var task = MockClasses.task
-    task.color = Color.getRandomColor()
-    tasks!.append(task)
+    tasks.append(task)
   }
 }
 

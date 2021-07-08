@@ -10,6 +10,11 @@ import SwiftUI
 struct TaskCell: View {
   let task: Task
   let width: CGFloat
+  @State var isOpen: Bool = false
+
+  var height: CGFloat {
+    return isOpen ? 100 : 20
+  }
 
   var body: some View {
     VStack {
@@ -18,26 +23,36 @@ struct TaskCell: View {
         .foregroundColor(.white)
         .frame(width: width - 8*2, height: 32, alignment: .leading)
 
-      HStack {
-        Image(systemName: "mappin.and.ellipse")
-          .foregroundColor(.white)
-          .frame(width: 32, height: 32, alignment: .center)
+      if isOpen {
+        HStack {
+          Image(systemName: "mappin.and.ellipse")
+            .foregroundColor(.white)
+            .frame(width: 32, height: 32, alignment: .center)
 
-        VStack {
-          Text(task.location01)
-            .foregroundColor(.white)
-            .frame(width: width - 42, height: 32, alignment: .leading)
-          Text(task.location02)
-            .foregroundColor(.white)
-            .frame(width: width - 42, height: 32, alignment: .leading)
+          VStack {
+            Text(task.location01)
+              .foregroundColor(.white)
+              .frame(width: width - 42, height: 32, alignment: .leading)
+            Text(task.location02)
+              .foregroundColor(.white)
+              .frame(width: width - 42, height: 32, alignment: .leading)
+          }
         }
-
       }
     }
-    .frame(width: width, height: 100)
+    .frame(width: width, height: height)
     .overlay(
-      Image(systemName: "square.and.pencil")
-        .foregroundColor(.white),
+      Button(
+        action: {
+          withAnimation {
+            isOpen.toggle()
+          }
+        },
+        label: {
+          Image(systemName: "square.and.pencil")
+            .foregroundColor(.white)
+        }
+      ),
       alignment: Alignment.topTrailing
     )
     .padding()
@@ -49,7 +64,10 @@ struct TaskCell: View {
 
 struct TaskCell_Previews: PreviewProvider {
   static var previews: some View {
-    TaskCell(task: MockClasses.task, width: 350)
+    TaskCell(task: MockClasses.task, width: 350, isOpen: false)
+      .previewLayout(.sizeThatFits)
+
+    TaskCell(task: MockClasses.task, width: 350, isOpen: true)
       .previewLayout(.sizeThatFits)
   }
 }
